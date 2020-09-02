@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="false"
+    android:layout_centerHorizontal="false"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#444444"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/poppins"
+        android:text="Temperature Converter"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="115dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Please, enter the temperature in celsius"
+        android:textAlignment="center"
+        android:textColor="?attr/colorButtonNormal" />
+
+    <EditText
+        android:id="@+id/editC"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:allowUndo="false"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editF"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editK"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/background_light" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/botao"
+        android:layout_width="100dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/go"
+        app:cb_color="#16987E"
+        app:cb_pressedRingWidth="8dip" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="ºC"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="ºF"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="K"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+</FrameLayout>
