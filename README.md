@@ -18,4 +18,7 @@ Podemos ver 3 campos de texto. O primeiro é destinado a escrever a temperatura 
 
 <p> Apenas digite a temperatura, em graus Celcius, e aperte o botão. Para temperaturas representadas por número com casas decimais, utilize "."</p>
 
-<sup>1</sup>
+<pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
