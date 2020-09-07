@@ -13,3 +13,9 @@ O aplicativo tem elementos simples, disponíveis pela própria linguagem Java, t
 </table>
 
 Podemos ver 3 campos de texto. O primeiro é destinado a escrever a temperatura em graus Celcius. Os outros exibem o resultado de sua conversão para Fahrenheit e Kelvin, depois que o usuário apertar o botão.
+
+## ❓ Como usar ❓
+
+<p> Apenas digite a temperatura, em graus Celcius, e aperte o botão. Para temperaturas representadas por número com casas decimais, utilize "."</p>
+
+<sup>1</sup>
