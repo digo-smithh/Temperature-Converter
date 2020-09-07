@@ -6,7 +6,7 @@ Um aplicativo simples nativo Android, feito em Java. Seu objetivo é converter t
 ## 🎨 Interface 🎨
 O aplicativo tem elementos simples, disponíveis pela própria linguagem Java, todos em um arquivo XML. Também foi adicionado um CircleButtun, disponível em *https://github.com/markushi/android-circlebutton*. Segue abaixo uma screenshot da interface: <br>  
 
-<table style="margin:auto">
+<table style="margin-left: calc(50% - 260px)">
     <tr>
         <td><img alt="screenshot" src="screenshot.png" width="250" height="430"></td>
     </tr>
